@@ -31,3 +31,4 @@ def get_button_state(button_pin):
     :return: True si el botón está presionado, False en caso contrario.
     """
     return GPIO.input(button_pin) == GPIO.LOW
+
