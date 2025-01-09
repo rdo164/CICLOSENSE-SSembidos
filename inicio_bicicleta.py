@@ -76,3 +76,4 @@ with open(csv_file, mode="w", newline="") as file:
     finally:
         GPIO.cleanup()  # Limpia la configuración de GPIO al final de la ejecución
         print("GPIO limpiado y ejecución finalizada.")
+
