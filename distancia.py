@@ -64,6 +64,7 @@ class GroveUltrasonicRanger:
         distance = ((t2 - t1) * 1000000 / 29 / 2 / 10)
         return distance
 
+    
     def get_distance(self):
         """
         Obtiene la distancia medida por el sensor.
