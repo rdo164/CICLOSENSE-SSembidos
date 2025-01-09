@@ -35,3 +35,4 @@ def log_sensor_data_tyh(sensor, delay=1):
         else:
             print('DHT{0}, no se pudo leer la humedad. Temperatura: {1:.1f}°C'.format(sensor.dht_type, temp))
         time.sleep(delay)
+
