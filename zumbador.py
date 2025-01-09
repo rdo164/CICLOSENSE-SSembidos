@@ -24,3 +24,4 @@ def zumbador(pin, high_time, low_time):
 
 # Ejemplo de uso:
 # blink_led(pin=18, high_time=1, low_time=2)
+
